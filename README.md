@@ -69,10 +69,15 @@ GOOD BYE!!
 Expected Messages :
 --------------------
 A command is not among PLACE,MOVE,LEFT,RIGHT,REPORT or EXIT : The command is invalid
+
 The command tries to place or move the robot outside the 0,0,5,5 coordinates :The position of the robot is not valid as it is outside the board
+
 The robot has not been placed on the board: The Robot has not been placed on the board. Ignoring command.
+
 The direction is not NORTH,SOUTH,EAST or WEST :The direction is invalid.Please choose among NORTH,SOUTH,EASt,WEST.
+
 Turning LEFT or RIGHT brings up : Turned Left,Turned Right
+
 Succesful move brings up : Executed.
 
 
