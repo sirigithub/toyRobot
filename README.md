@@ -5,27 +5,26 @@ This project simulates a toy robot moving in a predefined square tabletop of 5 u
 
 System Requirements
 ---------------------
-The program requires java run time 1.7 or above to run. It needs Maven version 2 or above to compile the source.
+The program requires java runtime 1.7 or above to run. It needs Maven version 2 or above to compile the source.
 
 Download and Run 
 --------------------------
 Download source code from https://github.com/sirigithub/toyRobot
-To run the program, bring up a command prompt and move to the target directory containing the executable.
-cd "loacation on the drive"\toyRobot-master\target.
+To run the program, bring up command prompt and navigate to the target directory containing the executable (e.g. cd "location on the drive"\toyRobot-master\target).
 
 java -jar toyRobot-0.0.1-SNAPSHOT-jar-with-dependencies
 
-The program executes until it comes across a EXIT command(case sensitive).
+The program executes until it receives  a EXIT command(case sensitive).
 
 Compile
 --------
 To compile the source , please move to the location of the install.
 
-cd "loacation on the drive"\toyRobot-master.
+cd "location on the drive"\toyRobot-master.
 
 mvn clean install
 
-This command cleans , compiles runs the tests and creates an executable jar file toyRobot-0.0.1-SNAPSHOT-jar-with-dependencies.
+This command cleans, compiles runs the tests and creates an executable jar file toyRobot-0.0.1-SNAPSHOT-jar-with-dependencies.
 
 Test
 -----
