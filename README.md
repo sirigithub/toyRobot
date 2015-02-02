@@ -20,9 +20,12 @@ The program executes until it comes across a EXIT command(case sensitive).
 
 Compile
 --------
-To compile the source , please move to the location of the install
-cd "loacation on the drive"\toyRobot-master
+To compile the source , please move to the location of the install.
+
+cd "loacation on the drive"\toyRobot-master.
+
 mvn clean install
+
 This command cleans , compiles runs the tests and creates an executable jar file toyRobot-0.0.1-SNAPSHOT-jar-with-dependencies.
 
 Test
@@ -36,18 +39,31 @@ PLACE X,Y,NORTH|SOUTH|EAST|WEST, MOVE, LEFT, RIGHT, REPORT or EXIT
 MOVE
 The Robot has not been placed on the board. Ignoring command
 PLACE 0,0,NORTH
+
 Executed
+
 MOVE
+
 Executed
+
 REPORT
+
 0,1 NORTH
+
 LEFT
+
 Turned Left
+
 REPORT
+
 0,1 WEST
+
 EXIT!
+
 The command is invalid
+
 EXIT
+
 GOOD BYE!!
 
 Expected Messages :
