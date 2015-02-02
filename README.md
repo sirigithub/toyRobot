@@ -1,8 +1,7 @@
 # toyRobot
 ToyRobot Simulator
 -----------------------
-This project simulates a toy robot moving in a predefined square table top of 5units/5units with 0,0 as the start coordinates.
-The robot needs to receive a PLACE X,Y,F command where X and Y are valid coordinates and F is the direction for the robot to face, to be placed on the square board.Other valid commands are MOVE, LEFT,RIGHT and REPORT.
+This project simulates a toy robot moving in a predefined square tabletop of 5 units/5 units with 0,0 as the start coordinates. The simulator program initialises the robot on the tabletop when it receives a PLACE X,Y,F command where X and Y are valid coordinates and F is the direction to which the robot will face. Other valid commands are MOVE, LEFT,RIGHT and REPORT. Other valid commands are ignored until the time a valid PLACE command is received.
 
 System Requirements
 ---------------------
