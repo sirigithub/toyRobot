@@ -12,8 +12,10 @@ Download and Run
 --------------------------
 Download source code from https://github.com/sirigithub/toyRobot
 To run the program, bring up a command prompt and move to the target directory containing the executable.
-cd "loacation on the drive"\toyRobot-master\target
+cd "loacation on the drive"\toyRobot-master\target.
+
 java -jar toyRobot-0.0.1-SNAPSHOT-jar-with-dependencies
+
 The program executes until it comes across a EXIT command(case sensitive).
 
 Compile
